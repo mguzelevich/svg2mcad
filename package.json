@@ -1,0 +1,16 @@
+{
+  "name": "mcad-generation",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "svg2mcad": "bun run src/index.ts"
+  },
+  "dependencies": {
+    "earcut": "^3.0.1",
+    "fast-xml-parser": "^5.2.3"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/earcut": "^2.1.4"
+  }
+}
